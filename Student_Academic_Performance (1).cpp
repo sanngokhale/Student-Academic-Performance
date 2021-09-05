@@ -1,10 +1,12 @@
 /*
+DSA Miniproject Semester 1
  Problem statement-
  To make a user-friendly application of the data structure to add, maintain and retrieve the academic details including
 the toppers, failed students, rank holders etc. of a class.
-
 Team-2923, 2924, 2925, 2914
 
+Data Structure used - Singly Linked list
+Sorting Technique used - Merge Sort 
  */
 
 #include <iostream>
@@ -498,7 +500,7 @@ void Student::percentage_calc()     =   O(1)
 void Student::_grade()              =   O(1)
 void Student::display()             =   O(1)
 
-Node* mergeSort()				    = O(nlogn)
+Node* mergeSort()		    = O(nlogn)
 
 void List::setRank()                =   O(n)
 void List::topper()                 =   O(1)
@@ -508,7 +510,7 @@ void List::create()                 =   O(n)
 void List::displayList()            =   O(n)
 void List::deleteNode()             =   O(n)
 float List::average()               =   O(n)
-void List::avgCompare()			    =   O(n)
+void List::avgCompare()		    =   O(n)
 void List::fail()                   =   O(n)
 
 ===================================================================================================
